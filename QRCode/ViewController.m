@@ -47,7 +47,7 @@
     /**********************************************************/
     UIImageView *imageView3 = [[UIImageView alloc] initWithFrame:CGRectMake(0, 500, 240, 240)];
     [self.view addSubview:imageView3];
-    imageView3.image = [imageView3 createImgQRCodeWithString:@"带图片二维码" centerImage:[UIImage imageNamed:@"centerImage"]];
+    imageView3.image = [imageView3 createImgQRCodeWithString:@"带图片二维码" centerImage:[UIImage imageNamed:@"centerImage.bundle/centerImage"]];
     /**********************************************************/
     
 }

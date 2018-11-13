@@ -1,5 +1,9 @@
 # QRCode
 二维码生成工具
+
+屏幕截图
+![image]()
+
 ## 普通二维码
 ```objc
 - (UIImage *)createQRCodeWithString:(NSString *)QRString withImgsize:(CGFloat)imageFloat;

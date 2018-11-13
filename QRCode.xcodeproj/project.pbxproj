@@ -17,6 +17,7 @@
 		42B13BCA205B64DD00C80B8E /* QRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B13BC9205B64DD00C80B8E /* QRCodeTests.m */; };
 		42B13BD5205B64DD00C80B8E /* QRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B13BD4205B64DD00C80B8E /* QRCodeUITests.m */; };
 		42B13BE8205B949800C80B8E /* UIImageView+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B13BE7205B949800C80B8E /* UIImageView+QRCode.m */; };
+		BBC034FA219A6AF600BD332C /* QRCode.png in Resources */ = {isa = PBXBuildFile; fileRef = BBC034F9219A6AF600BD332C /* QRCode.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		42B13BD6205B64DD00C80B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42B13BE6205B949800C80B8E /* UIImageView+QRCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+QRCode.h"; sourceTree = "<group>"; };
 		42B13BE7205B949800C80B8E /* UIImageView+QRCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+QRCode.m"; sourceTree = "<group>"; };
+		BBC034F9219A6AF600BD332C /* QRCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRCode.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		42B13BAF205B64DD00C80B8E /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
+				BBC034F8219A6AC800BD332C /* Picture */,
 				42B13BB0205B64DD00C80B8E /* AppDelegate.h */,
 				42B13BB1205B64DD00C80B8E /* AppDelegate.m */,
 				42B13BB3205B64DD00C80B8E /* ViewController.h */,
@@ -138,6 +141,14 @@
 				42B13BD6205B64DD00C80B8E /* Info.plist */,
 			);
 			path = QRCodeUITests;
+			sourceTree = "<group>";
+		};
+		BBC034F8219A6AC800BD332C /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				BBC034F9219A6AF600BD332C /* QRCode.png */,
+			);
+			path = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42B13BBD205B64DD00C80B8E /* LaunchScreen.storyboard in Resources */,
+				BBC034FA219A6AF600BD332C /* QRCode.png in Resources */,
 				42B13BBA205B64DD00C80B8E /* Assets.xcassets in Resources */,
 				42ADF276205F68B200A61BC3 /* centerImage.bundle in Resources */,
 				42B13BB8205B64DD00C80B8E /* Main.storyboard in Resources */,

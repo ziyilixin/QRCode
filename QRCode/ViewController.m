@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     /**********************************************************/
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 240, 240)];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 240)/2, 30, 240, 240)];
     [self.view addSubview:imageView];
     
     //1.创建过滤器
@@ -38,14 +38,14 @@
     /**********************************************************/
     
     /**********************************************************/
-    UIImageView *imageView2 = [[UIImageView alloc] initWithFrame:CGRectMake(0, 250, 240, 240)];
+    UIImageView *imageView2 = [[UIImageView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 240)/2, 280, 240, 240)];
 //    imageView2.backgroundColor = [UIColor redColor];
     [self.view addSubview:imageView2];
     imageView2.image = [imageView2 createQRCodeWithString:@"普通二维码" withImgsize:300];
     /**********************************************************/
     
     /**********************************************************/
-    UIImageView *imageView3 = [[UIImageView alloc] initWithFrame:CGRectMake(0, 500, 240, 240)];
+    UIImageView *imageView3 = [[UIImageView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 240)/2, 530, 240, 240)];
     [self.view addSubview:imageView3];
     imageView3.image = [imageView3 createImgQRCodeWithString:@"带图片二维码" centerImage:[UIImage imageNamed:@"centerImage.bundle/centerImage"]];
     /**********************************************************/
